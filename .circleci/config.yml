@@ -3,7 +3,6 @@ version: 2.1
 defaults: &defaults
   docker:
     - image: circleci/node:latest
-  working_directory: ~/
 print_pipeline_id: &print_pipeline_id
   steps:
     - run:
