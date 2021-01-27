@@ -2,7 +2,7 @@
 version: 2.1
 defaults: &defaults
   docker:
-    - image: alpine:latest
+    - image: circleci/node:latest
   working_directory: ~/
 print_pipeline_id: &print_pipeline_id
   steps:
